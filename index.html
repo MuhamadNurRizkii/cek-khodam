@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cek Khodam</title>
+    <link href="src/output.css" rel="stylesheet" />
+  </head>
+  <body class="overflow-x-hidden">
+    <h1 class="text-center text-2xl font-bold mb-8">
+      Selamat datang di Cek Khodam Online
+    </h1>
+
+    <div class="constiner w-[300px] mx-auto mb-8">
+      <input
+        id="inputName"
+        type="text"
+        autocomplete="off"
+        class="outline-0 border px-4 py-2 rounded-lg mr-3 focus:border-blue-500"
+        placeholder="Masukkan Nama"
+      />
+      <button
+        id="btn"
+        class="px-4 py-1 text-white text-xl rounded-lg bg-blue-500"
+      >
+        Cek
+      </button>
+    </div>
+
+    <div class="overflow-x-auto">
+      <table
+        id="table"
+        class="mx-auto table-auto border-collapse border-gray-400 w-[500px] text-center"
+      >
+        <thead class="bg-gray-100">
+          <th class="border border-gray-300 px-4 py-2">no</th>
+          <th class="border border-gray-300 px-4 py-2">nama</th>
+          <th class="border border-gray-300 px-4 py-2">khodam</th>
+        </thead>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
