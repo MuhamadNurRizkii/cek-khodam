@@ -10,7 +10,6 @@ const khodam = [
   "botol aqua",
   "Harimau",
   "kudanil",
-  "tuyul ngaceng",
   "Ayam",
   "siput",
   "tutup panci",
