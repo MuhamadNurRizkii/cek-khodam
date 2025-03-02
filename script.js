@@ -10,11 +10,12 @@ const khodam = [
   "botol aqua",
   "Harimau",
   "kudanil",
-  "tuyul ngaceng",
+  "tuyul",
   "Ayam",
   "siput",
   "tutup panci",
   "Jarjit",
+  "ikan mujair",
 ];
 
 // fungsi ketika button di klik
